@@ -11,10 +11,6 @@ public class Sensor {
     private double currentValue;
     private String roomId;
     
-    //{"id": "TEMP-001", "type": "Temperature", "status": "ACTIVE", "roomId": "LIB-301"}
-    
-    // invalid : {"id": "CO2-001", "type": "CO2", "status": "ACTIVE", "roomId": "INVALID-ROOM"}
-
     public Sensor() {}
 
     public String getId() { 

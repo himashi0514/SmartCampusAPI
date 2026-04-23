@@ -12,8 +12,6 @@ public class Room {
     private String name;
     private int capacity;
     private List<String> sensorIds = new ArrayList<>();
-    
-    // {"id": "LIB-301", "name": "Library Quiet Study", "capacity": 50}
 
     public Room() {}
 
